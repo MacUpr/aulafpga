@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd":19:4:19:5|Found inferred clock blink|clk which controls 25 sequential elements including led_r. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

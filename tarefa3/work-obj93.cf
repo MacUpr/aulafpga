@@ -1,0 +1,13 @@
+v 4
+file . "tarefa3_TB.vhd" "af0258f77bfb49506a1b3152a5eb3d1233bc4bba" "20250911194136.191":
+  entity tarefa3_tb at 1( 0) + 0 on 21;
+  architecture sim of tarefa3_tb at 7( 95) + 0 on 22;
+file . "tb_fazendeiro_regras.vhd" "abea1a9828dd233b480f4cb298930a8472c4ef4e" "20250826215309.065":
+  entity tb_fazendeiro_regras at 1( 0) + 0 on 13;
+  architecture sim of tb_fazendeiro_regras at 7( 94) + 0 on 14;
+file . "fazendeiro_regras.vhd" "edb61529f995644244041cc7ed7cda9f4ec58d39" "20250826215254.950":
+  entity fazendeiro_regras at 1( 0) + 0 on 11;
+  architecture regras of fazendeiro_regras at 14( 260) + 0 on 12;
+file . "tarefa3.vhd" "73f76a03a438eaf87f73b1bb855b31dc26525f97" "20250911194133.455":
+  entity tarefa3 at 1( 0) + 0 on 19;
+  architecture rtl of tarefa3 at 9( 153) + 0 on 20;

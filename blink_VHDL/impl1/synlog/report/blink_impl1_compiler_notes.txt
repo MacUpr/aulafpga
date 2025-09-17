@@ -1,0 +1,16 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":5:7:5:11|Top entity is set to blink.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\lscc\diamond\3.14\cae_library\synthesis\vhdl\ecp5u.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd'.
+@N: CD630 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":5:7:5:11|Synthesizing work.blink.rtl.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(24) is always 0.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(25) is always 0.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(26) is always 0.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(27) is always 0.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(28) is always 0.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(29) is always 0.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(30) is always 0.
+@N: CL189 :"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":19:4:19:5|Register bit counter(31) is always 0.
+@N|Running in 64-bit mode
+

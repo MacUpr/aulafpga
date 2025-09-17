@@ -1,0 +1,1 @@
+project -fileorder "C:/lscc/diamond/3.14/cae_library/synthesis/vhdl/ecp5u.vhd" "C:/Users/ResTIC16/Documents/aula\ placa\ fpga/blink_VHDL/Arquivos/blink.vhd" 

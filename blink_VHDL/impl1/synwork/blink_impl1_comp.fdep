@@ -1,0 +1,24 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\ResTIC16\\Documents\\aula placa fpga\\blink_VHDL\\impl1\\synwork\\blink_impl1_comp.srs|-top|blink|-prodtype|synplify_pro|-dspmac|-fixsmult|-infer_seqShift|-nram|-sdff_counter|-divnmod|-nostructver|-lattice|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-work_is_curlib|0|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\bin64\\c_vhdl.exe":1727134361
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\location.map":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\std.vhd":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\std1164.vhd":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\numeric.vhd":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\umr_capim.vhd":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\arith.vhd":1727134411
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\unsigned.vhd":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\synpbase\\lib\\vhd\\hyperents.vhd":1727134414
+#CUR:"C:\\lscc\\diamond\\3.14\\cae_library\\synthesis\\vhdl\\ecp5u.vhd":1614238694
+#CUR:"C:\\Users\\ResTIC16\\Documents\\aula placa fpga\\blink_VHDL\\Arquivos\\blink.vhd":1756821605
+0			"C:\lscc\diamond\3.14\cae_library\synthesis\vhdl\ecp5u.vhd" vhdl
+1			"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+#Dependency Lists(Users Of)
+0 -1
+1 -1
+#Design Unit to File Association
+module work blink 1
+arch work blink rtl 1

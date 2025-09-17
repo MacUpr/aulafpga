@@ -1,0 +1,121 @@
+# ============================================================
+# BLINK (clock + LED onboard) — compatível com entity VHDL
+# ============================================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+
+# ============================================================
+# ESQUERDA - BLOCO PRETO SUPERIOR  (9 pinos) → count_a[8:0]
+# Colunas (ignorando 5V/3V3/GND):
+#  Esquerda:  PT65B, PT65A, PL14D, PT67B, PL23D, PT67A
+#  Direita :  PT62B, PL14B, PL17C
+# Ordem: de cima p/baixo (esq.), depois de cima p/baixo (dir.)
+# ============================================================
+LOCATE COMP "count_a[0]" SITE "B19"; IOBUF PORT "count_a[0]" IO_TYPE=LVCMOS33;  # B19 = PT65B
+LOCATE COMP "count_a[1]" SITE "A18"; IOBUF PORT "count_a[1]" IO_TYPE=LVCMOS33;  # A18 = PT65A
+LOCATE COMP "count_a[2]" SITE "C2";  IOBUF PORT "count_a[2]" IO_TYPE=LVCMOS33;  # C2  = PL14D
+LOCATE COMP "count_a[3]" SITE "B20"; IOBUF PORT "count_a[3]" IO_TYPE=LVCMOS33;  # B20 = PT67B
+LOCATE COMP "count_a[4]" SITE "E2";  IOBUF PORT "count_a[4]" IO_TYPE=LVCMOS33;  # E2  = PL23D
+LOCATE COMP "count_a[5]" SITE "A19"; IOBUF PORT "count_a[5]" IO_TYPE=LVCMOS33;  # A19 = PT67A
+LOCATE COMP "count_a[6]" SITE "B18"; IOBUF PORT "count_a[6]" IO_TYPE=LVCMOS33;  # B18 = PT62B
+LOCATE COMP "count_a[7]" SITE "B1";  IOBUF PORT "count_a[7]" IO_TYPE=LVCMOS33;  # B1  = PL14B
+LOCATE COMP "count_a[8]" SITE "D2";  IOBUF PORT "count_a[8]" IO_TYPE=LVCMOS33;  # D2  = PL17C
+
+
+# ============================================================
+# ESQUERDA - BLOCO PRETO INFERIOR (9 pinos) → count_b[8:0]
+# Colunas (ignorando 5V/3V3/GND):
+#  Esquerda:  PL29A, PL29B, PL14A, PL35A, PL5D, PR14D
+#  Direita :  PL29D, PL35B, PL14C
+# Ordem: de cima p/baixo (esq.), depois de cima p/baixo (dir.)
+# ============================================================
+LOCATE COMP "count_b[0]" SITE "J4";  IOBUF PORT "count_b[0]" IO_TYPE=LVCMOS33;  # J4  = PL29A
+LOCATE COMP "count_b[1]" SITE "J5";  IOBUF PORT "count_b[1]" IO_TYPE=LVCMOS33;  # J5  = PL29B
+LOCATE COMP "count_b[2]" SITE "A2";  IOBUF PORT "count_b[2]" IO_TYPE=LVCMOS33;  # A2  = PL14A
+LOCATE COMP "count_b[3]" SITE "K4";  IOBUF PORT "count_b[3]" IO_TYPE=LVCMOS33;  # K4  = PL35A
+LOCATE COMP "count_b[4]" SITE "B3";  IOBUF PORT "count_b[4]" IO_TYPE=LVCMOS33;  # B3  = PL5D
+LOCATE COMP "count_b[5]" SITE "E19"; IOBUF PORT "count_b[5]" IO_TYPE=LVCMOS33;  # E19 = PR14D
+LOCATE COMP "count_b[6]" SITE "K3";  IOBUF PORT "count_b[6]" IO_TYPE=LVCMOS33;  # K3  = PL29D
+LOCATE COMP "count_b[7]" SITE "K5";  IOBUF PORT "count_b[7]" IO_TYPE=LVCMOS33;  # K5  = PL35B
+LOCATE COMP "count_b[8]" SITE "B2";  IOBUF PORT "count_b[8]" IO_TYPE=LVCMOS33;  # B2  = PL14C
+
+
+# ============================================================
+# DIREITA - BLOCO PRETO SUPERIOR (9 pinos) → io_right_top[8:0]
+# Colunas (ignorando 5V/3V3/GND):
+#  Esquerda:  PR47D, PR35A, PR29D
+#  Direita :  PR32D, PR38D, PR32C, PR38A, PR29C, PR17D
+# Ordem: de cima p/baixo (esq.), depois de cima p/baixo (dir.)
+# ============================================================
+LOCATE COMP "io_right_top[0]" SITE "T17"; IOBUF PORT "io_right_top[0]" IO_TYPE=LVCMOS33;  # T17 = PR47D
+LOCATE COMP "io_right_top[1]" SITE "N17"; IOBUF PORT "io_right_top[1]" IO_TYPE=LVCMOS33;  # N17 = PR35A
+LOCATE COMP "io_right_top[2]" SITE "M18"; IOBUF PORT "io_right_top[2]" IO_TYPE=LVCMOS33;  # M18 = PR29D
+LOCATE COMP "io_right_top[3]" SITE "P17"; IOBUF PORT "io_right_top[3]" IO_TYPE=LVCMOS33;  # P17 = PR32D
+LOCATE COMP "io_right_top[4]" SITE "P18"; IOBUF PORT "io_right_top[4]" IO_TYPE=LVCMOS33;  # P18 = PR38D
+LOCATE COMP "io_right_top[5]" SITE "N18"; IOBUF PORT "io_right_top[5]" IO_TYPE=LVCMOS33;  # N18 = PR32C
+LOCATE COMP "io_right_top[6]" SITE "PR38A"; IOBUF PORT "io_right_top[6]" IO_TYPE=LVCMOS33;  # (tile)
+LOCATE COMP "io_right_top[7]" SITE "L18"; IOBUF PORT "io_right_top[7]" IO_TYPE=LVCMOS33;  # L18 = PR29C
+LOCATE COMP "io_right_top[8]" SITE "G20"; IOBUF PORT "io_right_top[8]" IO_TYPE=LVCMOS33;  # G20 = PR17D
+# (Observ.: PR38A não tem ball explícito na figura; mantive o nome do tile no comentário.)
+
+
+# ============================================================
+# DIREITA - BLOCO PRETO INFERIOR (9 pinos) → io_right_bot[8:0]
+# Colunas (ignorando 5V/3V3/GND):
+#  Esquerda:  PB15B, PB15A, PB13A
+#  Direita :  PL38A, PL38C, PL41B, PL41A, PL44B, PL44A
+# Ordem: de cima p/baixo (esq.), depois de cima p/baixo (dir.)
+# ============================================================
+LOCATE COMP "io_right_bot[0]" SITE "R3";  IOBUF PORT "io_right_bot[0]" IO_TYPE=LVCMOS33;  # R3 = PB15B
+LOCATE COMP "io_right_bot[1]" SITE "PB15A"; IOBUF PORT "io_right_bot[1]" IO_TYPE=LVCMOS33;  # (tile)
+LOCATE COMP "io_right_bot[2]" SITE "T2";  IOBUF PORT "io_right_bot[2]" IO_TYPE=LVCMOS33;  # T2 = PB13A
+LOCATE COMP "io_right_bot[3]" SITE "M4";  IOBUF PORT "io_right_bot[3]" IO_TYPE=LVCMOS33;  # M4 = PL38A
+LOCATE COMP "io_right_bot[4]" SITE "N4";  IOBUF PORT "io_right_bot[4]" IO_TYPE=LVCMOS33;  # N4 = PL38C
+LOCATE COMP "io_right_bot[5]" SITE "M3";  IOBUF PORT "io_right_bot[5]" IO_TYPE=LVCMOS33;  # M3 = PL41B
+LOCATE COMP "io_right_bot[6]" SITE "N3";  IOBUF PORT "io_right_bot[6]" IO_TYPE=LVCMOS33;  # N3 = PL41A
+LOCATE COMP "io_right_bot[7]" SITE "M1";  IOBUF PORT "io_right_bot[7]" IO_TYPE=LVCMOS33;  # M1 = PL44B
+LOCATE COMP "io_right_bot[8]" SITE "N2";  IOBUF PORT "io_right_bot[8]" IO_TYPE=LVCMOS33;  # N2 = PL44A
+# (Observ.: PB15A não mostra ball na figura; mantive o nome do tile no comentário.)
+
+
+# ============================================================
+# CONECTORES DE 4 PINOS (apenas os pinos de SINAL)
+# ============================================================
+
+# Topo esquerdo (PL17A, PL17B)
+LOCATE COMP "io_top_left[0]"  SITE "C1"; IOBUF PORT "io_top_left[0]"  IO_TYPE=LVCMOS33;  # C1 = PL17A
+LOCATE COMP "io_top_left[1]"  SITE "D1"; IOBUF PORT "io_top_left[1]"  IO_TYPE=LVCMOS33;  # D1 = PL17B
+
+# Topo meio (PL5A, PL5B)
+LOCATE COMP "io_top_mid[0]"   SITE "C4"; IOBUF PORT "io_top_mid[0]"   IO_TYPE=LVCMOS33;  # C4 = PL5A
+LOCATE COMP "io_top_mid[1]"   SITE "B4"; IOBUF PORT "io_top_mid[1]"   IO_TYPE=LVCMOS33;  # B4 = PL5B
+
+# Topo direito (PR23C, PR23D)
+LOCATE COMP "io_top_right1[0]" SITE "J20"; IOBUF PORT "io_top_right1[0]" IO_TYPE=LVCMOS33; # J20 = PR23C
+LOCATE COMP "io_top_right1[1]" SITE "K20"; IOBUF PORT "io_top_right1[1]" IO_TYPE=LVCMOS33; # K20 = PR23D
+
+# Topo direito (PR47A, PR47B)
+LOCATE COMP "io_top_right2[0]" SITE "U18"; IOBUF PORT "io_top_right2[0]" IO_TYPE=LVCMOS33; # U18 = PR47A
+LOCATE COMP "io_top_right2[1]" SITE "U17"; IOBUF PORT "io_top_right2[1]" IO_TYPE=LVCMOS33; # U17 = PR47B
+
+# Direita inferior (PB9A, PB9B)
+LOCATE COMP "io_bot_right1[0]" SITE "W1"; IOBUF PORT "io_bot_right1[0]" IO_TYPE=LVCMOS33;  # W1 = PB9A
+LOCATE COMP "io_bot_right1[1]" SITE "Y2"; IOBUF PORT "io_bot_right1[1]" IO_TYPE=LVCMOS33;  # Y2 = PB9B
+
+# Direita inferior (PB4B, PB4A)
+LOCATE COMP "io_bot_right2[0]" SITE "T1"; IOBUF PORT "io_bot_right2[0]" IO_TYPE=LVCMOS33;  # T1 = PB4B
+LOCATE COMP "io_bot_right2[1]" SITE "R1"; IOBUF PORT "io_bot_right2[1]" IO_TYPE=LVCMOS33;  # R1 = PB4A
+
+# Esquerda meio (PL23A, PL23B)
+LOCATE COMP "io_left_mid[0]"  SITE "G3"; IOBUF PORT "io_left_mid[0]"  IO_TYPE=LVCMOS33;  # G3 = PL23A
+LOCATE COMP "io_left_mid[1]"  SITE "F3"; IOBUF PORT "io_left_mid[1]"  IO_TYPE=LVCMOS33;  # F3 = PL23B
+
+# Esquerda inferior (PL20D, PL20C)
+LOCATE COMP "io_left_bot4[0]" SITE "H3"; IOBUF PORT "io_left_bot4[0]" IO_TYPE=LVCMOS33;  # H3 = PL20D
+LOCATE COMP "io_left_bot4[1]" SITE "H5"; IOBUF PORT "io_left_bot4[1]" IO_TYPE=LVCMOS33;  # H5 = PL20C
+

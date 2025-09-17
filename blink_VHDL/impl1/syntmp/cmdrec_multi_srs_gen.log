@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe  -link  -top  blink  -multisrs  "C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\impl1\synwork\blink_impl1_comp.srs"  -osyn  "C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\impl1\synwork\blink_impl1_mult.srs"  -log  "C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\impl1\synlog\blink_impl1_multi_srs_gen.srr" 
+relcom:..\..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe -link -top blink -multisrs "C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\impl1\synwork\blink_impl1_comp.srs" -osyn "C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\impl1\synwork\blink_impl1_mult.srs" -log "C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\impl1\synlog\blink_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:0
+file:..\synwork\blink_impl1_comp.srs|io:i|time:1756823038|size:2163|exec:0|csum:180819823158F4FC46F718337446060D
+file:..\synwork\blink_impl1_mult.srs|io:o|time:1756823040|size:1876|exec:0|csum:
+file:..\synlog\blink_impl1_multi_srs_gen.srr|io:o|time:1756823040|size:1040|exec:0|csum:
+file:..\..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe|io:i|time:1727134362|size:10549248|exec:1|csum:D91EA53737F6BC51A484A15DD0EB29F5

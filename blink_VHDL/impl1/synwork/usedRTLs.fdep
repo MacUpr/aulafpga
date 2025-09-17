@@ -1,0 +1,5 @@
+#List of actual used RTLs.
+
+File                                                                               Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd"        vhdl                      IN PROJECT

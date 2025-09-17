@@ -1,0 +1,29 @@
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: BRMASOFT41
+
+Implementation : impl1
+Synopsys VHDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@N:"C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd":5:7:5:11|Top entity is set to blink.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/lscc/diamond/3.14/cae_library/synthesis/vhdl/ecp5u.vhd'.
+@N: CD140 :	| Using the VHDL 1993 Standard for file 'C:/Users/ResTIC16/Documents/aula placa fpga/blink_VHDL/Arquivos/blink.vhd'.
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 93MB peak: 94MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep  2 11:23:56 2025
+
+###########################################################]

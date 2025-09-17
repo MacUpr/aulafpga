@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliMessageLog>
+    <Task name="Bitgen">
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION *NOT* controlled by sa5p00.acd ###</Dynamic>
+        </Message>
+        <Message>
+            <ID>1009992</ID>
+            <Severity>Info</Severity>
+            <Dynamic> SW_XO3D_SECURITY_ENCRYPTION license_securityIP OK</Dynamic>
+        </Message>
+    </Task>
+    <Task name="Synplify_Synthesis">
+        <Message>
+            <ID>2011000</ID>
+            <Severity>Info</Severity>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>CL279 :&quot;C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd&quot;:19:4:19:5|Pruning register bits 31 to 24 of counter(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Dynamic>
+            <Navigation>CL279</Navigation>
+            <Navigation>C:\Users\ResTIC16\Documents\aula placa fpga\blink_VHDL\Arquivos\blink.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Pruning register bits 31 to 24 of counter(31 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT529 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:19:4:19:5|Found inferred clock blink|clk which controls 25 sequential elements including led_r. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance.</Dynamic>
+            <Navigation>MT529</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>4</Navigation>
+            <Navigation>19</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>Found inferred clock blink|clk which controls 25 sequential elements including led_r. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved.</Dynamic>
+            <Navigation>FX474</Navigation>
+            <Navigation>User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. </Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un1_counterlto23 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un1_counterlto23 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un1_counterlto22 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un1_counterlto22 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un1_counterlto16 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un1_counterlto16 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un1_counterlto15 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un1_counterlto15 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un1_counterlto14 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un1_counterlto14 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net N_53 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net N_53 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_0 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_0 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_1 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_1 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_2 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_2 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_3 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_3 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_4 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_4 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_5 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_5 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_6 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_6 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_7 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_7 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_8 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_8 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_9 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_9 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_10 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_10 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_11 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_11 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_12 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_12 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_13 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_13 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_14 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_14 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_15 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_15 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_16 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_16 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_17 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_17 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_18 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_18 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_19 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_19 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_20 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_20 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_21 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_21 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_22 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_22 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019991</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>BN161 :&quot;c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd&quot;:5:7:5:11|Net un3_counter_axb_23 has multiple drivers .</Dynamic>
+            <Navigation>BN161</Navigation>
+            <Navigation>c:\users\restic16\documents\aula placa fpga\blink_vhdl\arquivos\blink.vhd</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>7</Navigation>
+            <Navigation>5</Navigation>
+            <Navigation>11</Navigation>
+            <Navigation>Net un3_counter_axb_23 has multiple drivers .</Navigation>
+        </Message>
+        <Message>
+            <ID>2019993</ID>
+            <Severity>Warning</Severity>
+            <Dynamic>MT420 |Found inferred clock blink|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Dynamic>
+            <Navigation>MT420</Navigation>
+            <Navigation>Found inferred clock blink|clk with period 5.00ns. Please declare a user-defined clock on port clk.</Navigation>
+        </Message>
+    </Task>
+</BaliMessageLog>

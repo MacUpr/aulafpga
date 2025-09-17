@@ -1,0 +1,43 @@
+# ============================================================
+# BLINK (clock + LED onboard) — compatível com entity VHDL
+# ============================================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+
+# ============================================================
+# count_a[5:0]  → BLOCO ESQUERDA SUPERIOR (6 pinos de dados)
+# Ordem (de cima p/ baixo, coluna esquerda; depois direita):
+#   B19, A18, C2, B20, E2, A19   |   (restantes: B18, B1, D2)
+# ============================================================
+LOCATE COMP "count_a[0]" SITE "B19"; IOBUF PORT "count_a[0]" IO_TYPE=LVCMOS33;  # B19 = PT65B
+LOCATE COMP "count_a[1]" SITE "A18"; IOBUF PORT "count_a[1]" IO_TYPE=LVCMOS33;  # A18 = PT65A
+LOCATE COMP "count_a[2]" SITE "C2";  IOBUF PORT "count_a[2]" IO_TYPE=LVCMOS33;  # C2  = PL14D
+LOCATE COMP "count_a[3]" SITE "B20"; IOBUF PORT "count_a[3]" IO_TYPE=LVCMOS33;  # B20 = PT67B
+LOCATE COMP "count_a[4]" SITE "E2";  IOBUF PORT "count_a[4]" IO_TYPE=LVCMOS33;  # E2  = PL23D
+LOCATE COMP "count_a[5]" SITE "A19"; IOBUF PORT "count_a[5]" IO_TYPE=LVCMOS33;  # A19 = PT67A
+# (Se quiser expandir p/ 9 bits: B18, B1, D2)
+
+
+# ============================================================
+# count_b[5:0] → BLOCO ESQUERDA INFERIOR (6 pinos de dados)
+# Ordem (de cima p/ baixo, coluna esquerda; depois direita):
+#   J4, J5, A2, K4, B3, E19     |   (restantes: K3, K5, B2)
+# ============================================================
+LOCATE COMP "count_b[0]" SITE "J4";  IOBUF PORT "count_b[0]" IO_TYPE=LVCMOS33;  # J4  = PL29A
+LOCATE COMP "count_b[1]" SITE "J5";  IOBUF PORT "count_b[1]" IO_TYPE=LVCMOS33;  # J5  = PL29B
+LOCATE COMP "count_b[2]" SITE "A2";  IOBUF PORT "count_b[2]" IO_TYPE=LVCMOS33;  # A2  = PL14A
+LOCATE COMP "count_b[3]" SITE "K4";  IOBUF PORT "count_b[3]" IO_TYPE=LVCMOS33;  # K4  = PL35A
+LOCATE COMP "count_b[4]" SITE "B3";  IOBUF PORT "count_b[4]" IO_TYPE=LVCMOS33;  # B3  = PL5D
+LOCATE COMP "count_b[5]" SITE "E19"; IOBUF PORT "count_b[5]" IO_TYPE=LVCMOS33;  # E19 = PR14D
+# (Se quiser expandir p/ 9 bits: K3, K5, B2)
+
+
+# RESET (ativo-baixo), PRESET (ativo-baixo) e DIR (UP/DOWN)
+LOCATE COMP "rst_n"    SITE "B18"; IOBUF PORT "rst_n"    IO_TYPE=LVCMOS33 PULLMODE=UP;
+LOCATE COMP "preset_n" SITE "B1";  IOBUF PORT "preset_n" IO_TYPE=LVCMOS33 PULLMODE=UP;
+LOCATE COMP "dir_btn"  SITE "D2";  IOBUF PORT "dir_btn"  IO_TYPE=LVCMOS33 PULLMODE=UP;

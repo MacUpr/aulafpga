@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/2/2025 11:21:55
+#Project Location: C:/Users/ResTIC16/Documents/aula placa fpga/blink_VHDL; Project name: blink
+prj_project new -name "blink" -impl "impl1" -dev LFE5U-45F-6BG381C -synthesis "synplify" -lpf "C:/Users/ResTIC16/Documents/aula placa fpga/blink_VHDL/Arquivos/blink.lpf"
+prj_src add "C:/Users/ResTIC16/Documents/aula placa fpga/blink_VHDL/Arquivos/blink.vhd"
+prj_project save
+prj_run Export -impl impl1
+#Stop recording: 9/2/2025 11:40:54
