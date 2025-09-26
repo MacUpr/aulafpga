@@ -1,0 +1,11 @@
+# Entrada: sinal externo no J4 (GPIOPL29A), push-pull da BitDogLab
+LOCATE   COMP "ext_sig" SITE "J4"; # J4  = PL29A
+IOBUF    PORT "ext_sig" IO_TYPE=LVCMOS33;
+
+# Saída LED (ajuste o SITE conforme a sua placa, aqui exemplo L2)
+LOCATE   COMP "led" SITE "L2";
+IOBUF    PORT "led" IO_TYPE=LVCMOS33;
+
+# Saída de sincronismo em B19 (PT65B)
+LOCATE   COMP "sync_out" SITE "B19"; # B19 = PT65B
+IOBUF    PORT "sync_out" IO_TYPE=LVCMOS33 DRIVE=8;

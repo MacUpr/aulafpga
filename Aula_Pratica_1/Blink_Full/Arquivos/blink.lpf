@@ -1,0 +1,12 @@
+# Clock de 25 MHz no P3
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+# LED onboard em L2
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# Nova saída sincronizada com o blink em PT65B (site B19)
+LOCATE    COMP "sync_out" SITE "B19";     # PT65B
+IOBUF     PORT "sync_out" IO_TYPE=LVCMOS33 DRIVE=8; 
