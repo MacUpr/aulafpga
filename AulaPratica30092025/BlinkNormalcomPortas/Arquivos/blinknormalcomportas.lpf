@@ -1,0 +1,34 @@
+# ============================================================
+# BLINK (clock + LED onboard)
+# ============================================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# ============================================================
+# ENTRADAS — Botões (ativos-baixo; pull-up interno)
+# A -> PT62B (B18), B -> PL14B (B1), C -> PL17C (D2)
+# ============================================================
+LOCATE    COMP "btn_a" SITE "B18";  # PT62B
+IOBUF     PORT "btn_a" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+LOCATE    COMP "btn_b" SITE "B1";   # PL14B
+IOBUF     PORT "btn_b" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+LOCATE    COMP "btn_c" SITE "D2";   # PL17C
+IOBUF     PORT "btn_c" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# ============================================================
+# SAÍDAS — q[5:0] (dois pinos por botão: A->q0,q1; B->q2,q3; C->q4,q5)
+# Alocados no bloco ESQUERDA - topo (pinos confiáveis)
+# q[0]=B19, q[1]=A18, q[2]=C2, q[3]=B20, q[4]=E2, q[5]=A19
+# ============================================================
+LOCATE    COMP "q[0]" SITE "B19";  IOBUF PORT "q[0]" IO_TYPE=LVCMOS33;  # PT65B
+LOCATE    COMP "q[1]" SITE "A18";  IOBUF PORT "q[1]" IO_TYPE=LVCMOS33;  # PT65A
+LOCATE    COMP "q[2]" SITE "C2";   IOBUF PORT "q[2]" IO_TYPE=LVCMOS33;  # PL14D
+LOCATE    COMP "q[3]" SITE "B20";  IOBUF PORT "q[3]" IO_TYPE=LVCMOS33;  # PT67B
+LOCATE    COMP "q[4]" SITE "E2";   IOBUF PORT "q[4]" IO_TYPE=LVCMOS33;  # PL23D
+LOCATE    COMP "q[5]" SITE "A19";  IOBUF PORT "q[5]" IO_TYPE=LVCMOS33;  # PT67A

@@ -1,0 +1,41 @@
+# ================================
+# CLOCK 25 MHz e LED
+# ================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# ================================
+# ENTRADAS (6) — com pull-up (opcional)
+# Superior = {in_a(S2), in_b(S1), in_c(S0)} = {B18, B1, D2}
+# Inferior = {in_d(I2), in_e(I1), in_f(I0)} = {K3,  K5, B2}
+# ================================
+LOCATE COMP "in_a" SITE "B18"; IOBUF PORT "in_a" IO_TYPE=LVCMOS33 PULLMODE=UP;
+LOCATE COMP "in_b" SITE "B1";  IOBUF PORT "in_b" IO_TYPE=LVCMOS33 PULLMODE=UP;
+LOCATE COMP "in_c" SITE "D2";  IOBUF PORT "in_c" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+LOCATE COMP "in_d" SITE "K3";  IOBUF PORT "in_d" IO_TYPE=LVCMOS33 PULLMODE=UP;
+LOCATE COMP "in_e" SITE "K5";  IOBUF PORT "in_e" IO_TYPE=LVCMOS33 PULLMODE=UP;
+LOCATE COMP "in_f" SITE "B2";  IOBUF PORT "in_f" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# ================================
+# SAÍDAS (12) — todas em SITES distintos das entradas
+# y[0..5] no bloco superior esquerdo
+# y[6..11] no bloco inferior esquerdo (sem conflitar com entradas)
+# ================================
+LOCATE COMP "y[0]"  SITE "B19"; IOBUF PORT "y[0]"  IO_TYPE=LVCMOS33;
+LOCATE COMP "y[1]"  SITE "A18"; IOBUF PORT "y[1]"  IO_TYPE=LVCMOS33;
+LOCATE COMP "y[2]"  SITE "C2";  IOBUF PORT "y[2]"  IO_TYPE=LVCMOS33;
+LOCATE COMP "y[3]"  SITE "B20"; IOBUF PORT "y[3]"  IO_TYPE=LVCMOS33;
+LOCATE COMP "y[4]"  SITE "E2";  IOBUF PORT "y[4]"  IO_TYPE=LVCMOS33;
+LOCATE COMP "y[5]"  SITE "A19"; IOBUF PORT "y[5]"  IO_TYPE=LVCMOS33;
+
+LOCATE COMP "y[6]"  SITE "J4";  IOBUF PORT "y[6]"  IO_TYPE=LVCMOS33;  # diferente de in_d (K3)
+LOCATE COMP "y[7]"  SITE "J5";  IOBUF PORT "y[7]"  IO_TYPE=LVCMOS33;  # diferente de in_e (K5)
+LOCATE COMP "y[8]"  SITE "A2";  IOBUF PORT "y[8]"  IO_TYPE=LVCMOS33;  # diferente de in_f (B2)
+LOCATE COMP "y[9]"  SITE "K4";  IOBUF PORT "y[9]"  IO_TYPE=LVCMOS33;
+LOCATE COMP "y[10]" SITE "B3";  IOBUF PORT "y[10]" IO_TYPE=LVCMOS33;
+LOCATE COMP "y[11]" SITE "E19"; IOBUF PORT "y[11]" IO_TYPE=LVCMOS33;

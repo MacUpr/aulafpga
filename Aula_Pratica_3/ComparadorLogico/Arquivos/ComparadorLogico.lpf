@@ -1,0 +1,59 @@
+# ================================
+# CLOCK e LED (compatibilidade)
+# ================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# ================================
+# ENTRADAS (6) — ESQUERDA
+# Palavras:
+#   Palavra SUPERIOR = {in_a(S2, MSB), in_b(S1), in_c(S0, LSB)} = {B18, B1, D2}
+#   Palavra INFERIOR = {in_d(I2, MSB), in_e(I1), in_f(I0, LSB)} = {K3,  K5, B2}
+# Se usar botões diretos com pull-up, mantenha PULLMODE=UP.
+# Se vier 0/1 direto (toggle MCU), pode remover PULLMODE=UP se desejar.
+# ================================
+# SUPERIOR
+LOCATE COMP "in_a" SITE "B18"; IOBUF PORT "in_a" IO_TYPE=LVCMOS33 PULLMODE=UP;  # S2 (MSB)  PT62B
+LOCATE COMP "in_b" SITE "B1";  IOBUF PORT "in_b" IO_TYPE=LVCMOS33 PULLMODE=UP;  # S1        PL14B
+LOCATE COMP "in_c" SITE "D2";  IOBUF PORT "in_c" IO_TYPE=LVCMOS33 PULLMODE=UP;  # S0 (LSB)  PL17C
+
+# INFERIOR
+LOCATE COMP "in_d" SITE "K3";  IOBUF PORT "in_d" IO_TYPE=LVCMOS33 PULLMODE=UP;  # I2 (MSB)  PL29D
+LOCATE COMP "in_e" SITE "K5";  IOBUF PORT "in_e" IO_TYPE=LVCMOS33 PULLMODE=UP;  # I1        PL35B
+LOCATE COMP "in_f" SITE "B2";  IOBUF PORT "in_f" IO_TYPE=LVCMOS33 PULLMODE=UP;  # I0 (LSB)  PL14C
+
+# ================================
+# SAÍDAS (12) — ESQUERDA (nova lógica)
+# y[0]  = (Superior[0] <  Inferior[0])   // S0 < I0
+# y[1]  = (Superior[1] <  Inferior[1])   // S1 < I1
+# y[2]  = (Superior[2] <  Inferior[2])   // S2 < I2
+# y[3]  = (Superior[0] == Inferior[0])   // S0 == I0
+# y[4]  = (Superior[1] == Inferior[1])   // S1 == I1
+# y[5]  = (Superior[2] == Inferior[2])   // S2 == I2
+# y[6]  = (Superior[0] >  Inferior[0])   // S0 > I0
+# y[7]  = (Superior[1] >  Inferior[1])   // S1 > I1
+# y[8]  = (Superior[2] >  Inferior[2])   // S2 > I2
+# y[9]  = (Superior     <  Inferior)     // comparação de palavra (3 bits, unsigned)
+# y[10] = (Superior     == Inferior)
+# y[11] = (Superior     >  Inferior)
+# ================================
+
+# ESQUERDA — BLOCO PRETO SUPERIOR (6 saídas) → y[0]..y[5]
+LOCATE COMP "y[0]"  SITE "B19"; IOBUF PORT "y[0]"  IO_TYPE=LVCMOS33;  # PT65B
+LOCATE COMP "y[1]"  SITE "A18"; IOBUF PORT "y[1]"  IO_TYPE=LVCMOS33;  # PT65A
+LOCATE COMP "y[2]"  SITE "C2";  IOBUF PORT "y[2]"  IO_TYPE=LVCMOS33;  # PL14D
+LOCATE COMP "y[3]"  SITE "B20"; IOBUF PORT "y[3]"  IO_TYPE=LVCMOS33;  # PT67B
+LOCATE COMP "y[4]"  SITE "E2";  IOBUF PORT "y[4]"  IO_TYPE=LVCMOS33;  # PL23D
+LOCATE COMP "y[5]"  SITE "A19"; IOBUF PORT "y[5]"  IO_TYPE=LVCMOS33;  # PT67A
+
+# ESQUERDA — BLOCO PRETO INFERIOR (6 saídas) → y[6]..y[11]
+LOCATE COMP "y[6]"   SITE "J4";  IOBUF PORT "y[6]"   IO_TYPE=LVCMOS33;  # PL29A
+LOCATE COMP "y[7]"   SITE "J5";  IOBUF PORT "y[7]"   IO_TYPE=LVCMOS33;  # PL29B
+LOCATE COMP "y[8]"   SITE "A2";  IOBUF PORT "y[8]"   IO_TYPE=LVCMOS33;  # PL14A
+LOCATE COMP "y[9]"   SITE "K4";  IOBUF PORT "y[9]"   IO_TYPE=LVCMOS33;  # PL35A
+LOCATE COMP "y[10]"  SITE "B3";  IOBUF PORT "y[10]"  IO_TYPE=LVCMOS33;  # PL5D
+LOCATE COMP "y[11]"  SITE "E19"; IOBUF PORT "y[11]"  IO_TYPE=LVCMOS33;  # PR14D
