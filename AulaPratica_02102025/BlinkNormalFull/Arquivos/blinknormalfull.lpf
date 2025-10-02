@@ -1,0 +1,44 @@
+# ============================================================
+# BLINK (clock + LED onboard)
+# ============================================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# ============================================================
+# SAÍDAS — q[8:0] (ESQUERDA - topo)
+# Mapeamento: [0]=B19, [1]=A18, [2]=C2, [3]=B20, [4]=E2, [5]=A19,
+#             [6]=B18, [7]=B1,  [8]=D2
+# ============================================================
+LOCATE    COMP "q[0]" SITE "B19";  IOBUF PORT "q[0]" IO_TYPE=LVCMOS33;  # PT65B
+LOCATE    COMP "q[1]" SITE "A18";  IOBUF PORT "q[1]" IO_TYPE=LVCMOS33;  # PT65A
+LOCATE    COMP "q[2]" SITE "C2";   IOBUF PORT "q[2]" IO_TYPE=LVCMOS33;  # PL14D
+LOCATE    COMP "q[3]" SITE "B20";  IOBUF PORT "q[3]" IO_TYPE=LVCMOS33;  # PT67B
+LOCATE    COMP "q[4]" SITE "E2";   IOBUF PORT "q[4]" IO_TYPE=LVCMOS33;  # PL23D
+LOCATE    COMP "q[5]" SITE "A19";  IOBUF PORT "q[5]" IO_TYPE=LVCMOS33;  # PT67A
+LOCATE    COMP "q[6]" SITE "B18";  IOBUF PORT "q[6]" IO_TYPE=LVCMOS33;  # PT62B
+LOCATE    COMP "q[7]" SITE "B1";   IOBUF PORT "q[7]" IO_TYPE=LVCMOS33;  # PL14B
+LOCATE    COMP "q[8]" SITE "D2";   IOBUF PORT "q[8]" IO_TYPE=LVCMOS33;  # PL17C
+
+# ============================================================
+# SAÍDAS — q_copy[5:0]  (ESQUERDA - inferior)
+# Mapeamento: [0]=PL29A(J4), [1]=PL29B(J5), [2]=PL14A(A2),
+#             [3]=PL35A(K4), [4]=PL5D(B3),  [5]=PR14D(E19)
+# ============================================================
+LOCATE    COMP "q_copy[0]" SITE "J4";   IOBUF PORT "q_copy[0]" IO_TYPE=LVCMOS33;  # PL29A
+LOCATE    COMP "q_copy[1]" SITE "J5";   IOBUF PORT "q_copy[1]" IO_TYPE=LVCMOS33;  # PL29B
+LOCATE    COMP "q_copy[2]" SITE "A2";   IOBUF PORT "q_copy[2]" IO_TYPE=LVCMOS33;  # PL14A
+LOCATE    COMP "q_copy[3]" SITE "K4";   IOBUF PORT "q_copy[3]" IO_TYPE=LVCMOS33;  # PL35A
+LOCATE    COMP "q_copy[4]" SITE "B3";   IOBUF PORT "q_copy[4]" IO_TYPE=LVCMOS33;  # PL5D
+LOCATE    COMP "q_copy[5]" SITE "E19";  IOBUF PORT "q_copy[5]" IO_TYPE=LVCMOS33;  # PR14D
+
+# ============================================================
+# ENTRADAS — reset, preset, pause
+# reset  → PL29D(K3)   | preset → PL35B(K5) | pause → PL14C(B2)
+# ============================================================
+LOCATE    COMP "reset"  SITE "K3";  IOBUF PORT "reset"  IO_TYPE=LVCMOS33;  # PL29D
+LOCATE    COMP "preset" SITE "K5";  IOBUF PORT "preset" IO_TYPE=LVCMOS33;  # PL35B
+LOCATE    COMP "pause"  SITE "B2";  IOBUF PORT "pause"  IO_TYPE=LVCMOS33;  # PL14C
