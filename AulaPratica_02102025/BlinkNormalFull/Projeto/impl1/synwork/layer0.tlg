@@ -1,0 +1,12 @@
+Selecting top level module top
+@N: CG364 :"C:\Users\ResTIC16\Documents\fpga\AulaPratica_02102025\BlinkNormalFull\Arquivos\blinknormalfull.sv":10:7:10:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 98MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: C:\Users\ResTIC16\Documents\fpga\AulaPratica_02102025\BlinkNormalFull\Projeto\impl1\synwork\layer0.duruntime
+
+

@@ -1,0 +1,10 @@
+---------------------------------------------------
+Report for cell top
+   Instance path: top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  SLIC	      73.00        100.0
+                                  LUT4	      48.00        100.0
+                                 IOBUF	         11        100.0
+                                PFUREG	         73        100.0
+                                RIPPLE	         38        100.0

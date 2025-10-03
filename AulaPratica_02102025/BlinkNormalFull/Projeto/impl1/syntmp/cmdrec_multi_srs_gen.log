@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  C:\Users\ResTIC16\Documents\fpga\AulaPratica_02102025\BlinkNormalFull\Projeto\impl1\synwork\Projeto_impl1_comp.srs  -osyn  C:\Users\ResTIC16\Documents\fpga\AulaPratica_02102025\BlinkNormalFull\Projeto\impl1\synwork\Projeto_impl1_mult.srs  -log  C:\Users\ResTIC16\Documents\fpga\AulaPratica_02102025\BlinkNormalFull\Projeto\impl1\synlog\Projeto_impl1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe -link -top top -multisrs ..\synwork\Projeto_impl1_comp.srs -osyn ..\synwork\Projeto_impl1_mult.srs -log ..\synlog\Projeto_impl1_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:..\synwork\projeto_impl1_comp.srs|io:i|time:1759414216|size:4857|exec:0|csum:D8B6735FFFCEBF858CBF0F37A7415C06
+file:..\synwork\projeto_impl1_mult.srs|io:o|time:1759414218|size:4649|exec:0|csum:
+file:..\synlog\projeto_impl1_multi_srs_gen.srr|io:o|time:1759414218|size:1040|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe|io:i|time:1727134362|size:10549248|exec:1|csum:D91EA53737F6BC51A484A15DD0EB29F5

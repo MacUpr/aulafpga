@@ -1,0 +1,5 @@
+#List of actual used RTLs.
+
+File                                                                                                       Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\ResTIC16\Documents\fpga\AulaPratica_02102025\BlinkNormalFull\Arquivos\blinknormalfull.sv"     verilog                      IN PROJECT
