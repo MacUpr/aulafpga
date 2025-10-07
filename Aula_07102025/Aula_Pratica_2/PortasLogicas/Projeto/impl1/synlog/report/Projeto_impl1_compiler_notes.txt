@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Arquivos\PortasLogicas.sv":7:7:7:9|Synthesizing module top in library work.
+@N|Running in 64-bit mode
+

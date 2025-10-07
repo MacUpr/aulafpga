@@ -1,0 +1,27 @@
+# ================================
+# CLOCK e LED do blink
+# ================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+
+# ================================
+# ENTRADAS (in_a, in_b, in_c) — com pull-up interno
+# ================================
+LOCATE COMP "in_a" SITE "B18"; IOBUF PORT "in_a" IO_TYPE=LVCMOS33 PULLMODE=UP;  # B18 = PT62B
+LOCATE COMP "in_b" SITE "B1";  IOBUF PORT "in_b"  IO_TYPE=LVCMOS33 PULLMODE=UP;  # B1  = PL14B
+LOCATE COMP "in_c" SITE "D2";  IOBUF PORT "in_c"  IO_TYPE=LVCMOS33 PULLMODE=UP;  # D2  = PL17C
+
+# ==========================================
+# SAÍDAS (OR, AND, NOR, NAND, XOR, XNOR)
+# ==========================================
+LOCATE COMP "y_or"   SITE "B19"; IOBUF PORT "y_or"   IO_TYPE=LVCMOS33;  # B19 = PT65B
+LOCATE COMP "y_and"  SITE "A18"; IOBUF PORT "y_and"  IO_TYPE=LVCMOS33;  # A18 = PT65A
+LOCATE COMP "y_nor"  SITE "C2";  IOBUF PORT "y_nor"  IO_TYPE=LVCMOS33;  # C2  = PL14D
+LOCATE COMP "y_nand" SITE "B20"; IOBUF PORT "y_nand" IO_TYPE=LVCMOS33;  # B20 = PT67B
+LOCATE COMP "y_xor"  SITE "E2";  IOBUF PORT "y_xor"  IO_TYPE=LVCMOS33;  # E2  = PL23D
+LOCATE COMP "y_xnor" SITE "A19"; IOBUF PORT "y_xnor" IO_TYPE=LVCMOS33;  # A19 = PT67A

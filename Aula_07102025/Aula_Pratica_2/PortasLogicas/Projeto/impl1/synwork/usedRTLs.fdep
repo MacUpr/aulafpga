@@ -1,0 +1,5 @@
+#List of actual used RTLs.
+
+File                                                                                          Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Arquivos\PortasLogicas.sv"     verilog                      IN PROJECT

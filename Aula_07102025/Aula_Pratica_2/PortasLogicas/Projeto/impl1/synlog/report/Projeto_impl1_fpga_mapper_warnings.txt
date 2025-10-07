@@ -1,0 +1,34 @@
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto24 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto23 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto22 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto16 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto15 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto14 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto5 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_0 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_1 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_2 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_3 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_4 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_5 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_6 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_7 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_8 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_9 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_10 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_11 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_12 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_13 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_14 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_15 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_16 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_17 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_18 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_19 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_20 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_21 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_22 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_23 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_24 has multiple drivers .
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT420 |Found inferred clock top|clk with period 5.00ns. Please declare a user-defined clock on port clk.

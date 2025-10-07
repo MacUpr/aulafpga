@@ -1,0 +1,7 @@
+#Start recording tcl command: 9/30/2025 18:36:10
+#Project Location: I:/Meu Drive/Projetos_Verilog/Aula_Pratica_2/PortasLogicas/Projeto; Project name: Projeto
+prj_project new -name "Projeto" -impl "impl1" -dev LFE5U-45F-6BG381C -synthesis "synplify" -lpf "I:/Meu Drive/Projetos_Verilog/Aula_Pratica_2/PortasLogicas/Arquivos/PortasLogicas.lpf"
+prj_src add "I:/Meu Drive/Projetos_Verilog/Aula_Pratica_2/PortasLogicas/Arquivos/PortasLogicas.sv"
+prj_project save
+prj_run Export -impl impl1
+#Stop recording: 9/30/2025 18:44:33

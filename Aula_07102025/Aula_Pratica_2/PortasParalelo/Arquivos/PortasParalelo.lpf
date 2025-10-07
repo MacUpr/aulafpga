@@ -1,0 +1,41 @@
+# ================================
+# CLOCK e LED do blink
+# ================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# Entradas (com pull-up interno)
+LOCATE COMP "in_a[0]" SITE "B18"; IOBUF PORT "in_a[0]" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PT62B
+LOCATE COMP "in_b[0]" SITE "B1"; IOBUF PORT "in_b[0]" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PL14B
+LOCATE COMP "in_c[0]" SITE "D2";  IOBUF PORT "in_c[0]" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PL17C
+
+# Saídas lógicas (6 pinos restantes do bloco superior)
+LOCATE COMP "y_or[0]"   SITE "B19"; IOBUF PORT "y_or[0]"   IO_TYPE=LVCMOS33;  # PT65B
+LOCATE COMP "y_and[0]"  SITE "A18";  IOBUF PORT "y_and[0]"  IO_TYPE=LVCMOS33;  # PT65A
+LOCATE COMP "y_nor[0]"  SITE "C2"; IOBUF PORT "y_nor[0]"  IO_TYPE=LVCMOS33;  # PL14D
+LOCATE COMP "y_nand[0]" SITE "B20"; IOBUF PORT "y_nand[0]" IO_TYPE=LVCMOS33;  # PT67B
+LOCATE COMP "y_xor[0]"  SITE "E2";  IOBUF PORT "y_xor[0]"  IO_TYPE=LVCMOS33;  # PL23D
+LOCATE COMP "y_xnor[0]" SITE "A19";  IOBUF PORT "y_xnor[0]" IO_TYPE=LVCMOS33;  # PT67A
+
+# ============================================================
+# ESQUERDA — BLOCO PRETO INFERIOR (9 pinos) → Placa B
+# Mapeamento: 3 entradas (in_*[1]) + 6 saídas lógicas (y_*[1])
+# Referência do teu arquivo original: count_b[8:0]
+# ============================================================
+
+# Entradas (com pull-up interno)
+LOCATE COMP "in_a[1]" SITE "K3";  IOBUF PORT "in_a[1]" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PL29D
+LOCATE COMP "in_b[1]" SITE "K5";  IOBUF PORT "in_b[1]" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PL35B
+LOCATE COMP "in_c[1]" SITE "B2";  IOBUF PORT "in_c[1]" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PL14C
+
+# Saídas lógicas (6 pinos restantes do bloco inferior)
+LOCATE COMP "y_or[1]"   SITE "J4";  IOBUF PORT "y_or[1]"   IO_TYPE=LVCMOS33;  # PL29A
+LOCATE COMP "y_and[1]"  SITE "J5";  IOBUF PORT "y_and[1]"  IO_TYPE=LVCMOS33;  # PL29B
+LOCATE COMP "y_nor[1]"  SITE "A2"; IOBUF PORT "y_nor[1]"  IO_TYPE=LVCMOS33;  # PL14A
+LOCATE COMP "y_nand[1]" SITE "K4";  IOBUF PORT "y_nand[1]" IO_TYPE=LVCMOS33;  # PL35A
+LOCATE COMP "y_xor[1]"  SITE "B3";  IOBUF PORT "y_xor[1]"  IO_TYPE=LVCMOS33;  # PL5D
+LOCATE COMP "y_xnor[1]" SITE "E19";  IOBUF PORT "y_xnor[1]" IO_TYPE=LVCMOS33;  # PR14D

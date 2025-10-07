@@ -1,0 +1,7 @@
+C:\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe  -link  -top  top  -multisrs  "I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synwork\Projeto_impl1_comp.srs"  -osyn  "I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synwork\Projeto_impl1_mult.srs"  -log  "I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synlog\Projeto_impl1_multi_srs_gen.srr" 
+relcom:C:\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe -link -top top -multisrs "I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synwork\Projeto_impl1_comp.srs" -osyn "I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synwork\Projeto_impl1_mult.srs" -log "I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synlog\Projeto_impl1_multi_srs_gen.srr"
+rc:0 success:1 runtime:5
+file:..\synwork\projeto_impl1_comp.srs|io:i|time:1759268209|size:2991|exec:0|csum:B9A793A67F50355DF8D7C2B0E5020840
+file:..\synwork\projeto_impl1_mult.srs|io:o|time:1759268222|size:2770|exec:0|csum:
+file:..\synlog\projeto_impl1_multi_srs_gen.srr|io:o|time:1759268223|size:1043|exec:0|csum:
+file:c:\lscc\diamond\3.14\synpbase\bin64\syn_nfilter.exe|io:i|time:1727134362|size:10549248|exec:1|csum:D91EA53737F6BC51A484A15DD0EB29F5

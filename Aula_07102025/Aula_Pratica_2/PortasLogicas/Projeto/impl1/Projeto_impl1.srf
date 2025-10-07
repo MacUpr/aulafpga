@@ -1,0 +1,631 @@
+#Build: Synplify Pro (R) V-2023.09L-2, Build 349R, Sep 17 2024
+#install: C:\lscc\diamond\3.14\synpbase
+#OS: Windows 10 or later
+#Hostname: LABFUZZYCHESS
+
+# Tue Sep 30 18:36:23 2025
+
+#Implementation: impl1
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LABFUZZYCHESS
+
+Implementation : impl1
+Synopsys HDL Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LABFUZZYCHESS
+
+Implementation : impl1
+Synopsys Verilog Compiler, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+@I::"C:\lscc\diamond\3.14\synpbase\lib\lucent\ecp5u.v" (library work)
+@I::"C:\lscc\diamond\3.14\synpbase\lib\lucent\pmi_def.v" (library work)
+@I::"C:\lscc\diamond\3.14\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Arquivos\PortasLogicas.sv" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Arquivos\PortasLogicas.sv":7:7:7:9|Synthesizing module top in library work.
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 92MB peak: 92MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 91MB peak: 92MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synwork\layer0.duruntime
+
+
+
+At c_ver Exit (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:00s; Memory used current: 92MB peak: 92MB)
+
+Process took 0h:00m:16s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 30 18:36:46 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LABFUZZYCHESS
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 30 18:36:51 2025
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synwork\Projeto_impl1_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:00s; Memory used current: 22MB peak: 23MB)
+
+Process took 0h:00m:23s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 30 18:36:53 2025
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LABFUZZYCHESS
+
+Implementation : impl1
+Synopsys Synopsys Netlist Linker, Version comp202309synp1, Build 349R, Built Sep 17 2024 08:16:26, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 90MB peak: 91MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Sep 30 18:37:03 2025
+
+###########################################################]
+Premap Report
+
+# Tue Sep 30 18:37:06 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LABFUZZYCHESS
+
+Implementation : impl1
+Synopsys Lattice Technology Pre-mapping, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 182MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 186MB peak: 197MB)
+
+@A: MF827 |No constraint file specified.
+@L: I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\Projeto_impl1_scck.rpt 
+See clock summary report "I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\Projeto_impl1_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 188MB peak: 197MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 189MB peak: 197MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 202MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:00s; Memory used current: 202MB peak: 204MB)
+
+NConnInternalConnection caching is on
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 254MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 254MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 253MB peak: 254MB)
+
+
+Starting clock optimization phase (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 254MB peak: 254MB)
+
+
+mixed edge conversion for GCC is OFF
+
+Finished clock optimization phase (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Starting clock optimization report phase (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+Finished clock optimization report phase (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=108 on top level netlist top 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:01s; Memory used current: 255MB peak: 255MB)
+
+
+
+Clock Summary
+******************
+
+          Start       Requested     Requested     Clock        Clock          Clock
+Level     Clock       Frequency     Period        Type         Group          Load 
+-----------------------------------------------------------------------------------
+0 -       top|clk     200.0 MHz     5.000         inferred     (multiple)     25   
+===================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+            Clock     Source        Clock Pin       Non-clock Pin     Non-clock Pin
+Clock       Load      Pin           Seq Example     Seq Example       Comb Example 
+-----------------------------------------------------------------------------------
+top|clk     25        clk(port)     cnt[24:0].C     -                 -            
+===================================================================================
+
+@W: MT529 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":49:4:49:12|Found inferred clock top|clk which controls 25 sequential elements including cnt[24:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 25 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+0 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@KP:ckid0_0       clk                 port                   25         cnt[24:0]      
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+
+Summary of user generated gated clocks:
+0 user generated gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+
+Starting constraint checker (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:22s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:02s; Memory used current: 256MB peak: 256MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:24s; CPU Time elapsed 0h:00m:02s; Memory used current: 172MB peak: 258MB)
+
+Process took 0h:00m:25s realtime, 0h:00m:02s cputime
+# Tue Sep 30 18:37:32 2025
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Sep 30 18:37:37 2025
+
+
+Copyright (C) 1994-2023 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: V-2023.09L-2
+Install: C:\lscc\diamond\3.14\synpbase
+OS: Windows 10 or later
+Hostname: LABFUZZYCHESS
+
+Implementation : impl1
+Synopsys Lattice Technology Mapper, Version map202309lat, Build 191R, Built Sep 17 2024 10:38:50, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 182MB peak: 182MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 197MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 184MB peak: 197MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 198MB peak: 198MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 199MB peak: 201MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto24 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto23 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto22 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto16 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto15 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto14 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net ledlto5 has multiple drivers .
+
+Starting factoring (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:01s; Memory used current: 256MB peak: 256MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 257MB peak: 257MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_0 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_1 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_2 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_3 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_4 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_5 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_6 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_7 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_8 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_9 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_10 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_11 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_12 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_13 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_14 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_15 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_16 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_17 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_18 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_19 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_20 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_21 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_22 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_23 has multiple drivers .
+@W: BN161 :"i:\meu drive\projetos_verilog\aula_pratica_2\portaslogicas\arquivos\portaslogicas.sv":7:7:7:9|Net un2_cnt_axb_24 has multiple drivers .
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 258MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:01s; Memory used current: 258MB peak: 259MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 258MB peak: 259MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:02s; Memory used current: 259MB peak: 259MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     2.15ns		  21 /        25
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 259MB peak: 259MB)
+
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 259MB peak: 259MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:02s; Memory used current: 259MB peak: 260MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:02s; Memory used current: 259MB peak: 260MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:03s; Memory used current: 205MB peak: 260MB)
+
+Writing Analyst data base I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\synwork\Projeto_impl1_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:03s; Memory used current: 260MB peak: 261MB)
+
+Writing EDIF Netlist and constraint files
+@N: FX1056 |Writing EDF file: I:\Meu Drive\Projetos_Verilog\Aula_Pratica_2\PortasLogicas\Projeto\impl1\Projeto_impl1.edi
+@N: BW106 |Synplicity Constraint File capacitance units using default value of 1pF 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:04s; Memory used current: 269MB peak: 269MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:04s; Memory used current: 269MB peak: 269MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:04s; Memory used current: 267MB peak: 269MB)
+
+@W: MT420 |Found inferred clock top|clk with period 5.00ns. Please declare a user-defined clock on port clk.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Sep 30 18:37:52 2025
+#
+
+
+Top view:               top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.722
+
+                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------
+top|clk            200.0 MHz     305.1 MHz     5.000         3.277         1.722     inferred     (multiple)
+============================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+top|clk   top|clk  |  5.000       1.723  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+             Starting                                      Arrival          
+Instance     Reference     Type        Pin     Net         Time        Slack
+             Clock                                                          
+----------------------------------------------------------------------------
+cnt[0]       top|clk       FD1S3AX     Q       cnt[0]      0.955       1.722
+cnt[1]       top|clk       FD1S3AX     Q       cnt[1]      0.907       1.831
+cnt[2]       top|clk       FD1S3AX     Q       cnt[2]      0.907       1.831
+cnt[3]       top|clk       FD1S3AX     Q       cnt[3]      0.907       1.893
+cnt[4]       top|clk       FD1S3AX     Q       cnt[4]      0.907       1.893
+cnt[5]       top|clk       FD1S3AX     Q       cnt[5]      0.955       1.905
+cnt[6]       top|clk       FD1S3IX     Q       cnt[6]      0.907       1.954
+cnt[7]       top|clk       FD1S3AX     Q       cnt[7]      0.907       2.014
+cnt[8]       top|clk       FD1S3AX     Q       cnt[8]      0.907       2.014
+cnt[10]      top|clk       FD1S3AX     Q       cnt[10]     0.955       2.027
+============================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+             Starting                                                  Required          
+Instance     Reference     Type        Pin     Net                     Time         Slack
+             Clock                                                                       
+-----------------------------------------------------------------------------------------
+cnt[23]      top|clk       FD1S3AX     D       un2_cnt_cry_23_0_S0     4.946        1.722
+cnt[24]      top|clk       FD1S3IX     D       cnt_3[24]               4.946        1.722
+cnt[21]      top|clk       FD1S3IX     D       cnt_3[21]               4.946        1.784
+cnt[22]      top|clk       FD1S3IX     D       cnt_3[22]               4.946        1.784
+cnt[19]      top|clk       FD1S3IX     D       cnt_3[19]               4.946        1.845
+cnt[20]      top|clk       FD1S3IX     D       cnt_3[20]               4.946        1.845
+cnt[17]      top|clk       FD1S3AX     D       un2_cnt_cry_17_0_S0     4.946        1.905
+cnt[18]      top|clk       FD1S3IX     D       cnt_3[18]               4.946        1.905
+cnt[15]      top|clk       FD1S3AX     D       un2_cnt_cry_15_0_S0     4.946        1.966
+cnt[16]      top|clk       FD1S3IX     D       cnt_3[16]               4.946        1.966
+=========================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.054
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.946
+
+    - Propagation time:                      3.224
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.722
+
+    Number of logic level(s):                13
+    Starting point:                          cnt[0] / Q
+    Ending point:                            cnt[24] / D
+    The start point is clocked by            top|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+    The end   point is clocked by            top|clk [rising] (rise=0.000 fall=2.500 period=5.000) on pin CK
+
+Instance / Net                   Pin      Pin               Arrival     No. of    
+Name                 Type        Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------
+cnt[0]               FD1S3AX     Q        Out     0.955     0.955 r     -         
+cnt[0]               Net         -        -       -         -           3         
+un2_cnt_cry_0_0      CCU2C       A1       In      0.000     0.955 r     -         
+un2_cnt_cry_0_0      CCU2C       COUT     Out     0.900     1.855 r     -         
+un2_cnt_cry_0        Net         -        -       -         -           1         
+un2_cnt_cry_1_0      CCU2C       CIN      In      0.000     1.855 r     -         
+un2_cnt_cry_1_0      CCU2C       COUT     Out     0.061     1.916 r     -         
+un2_cnt_cry_2        Net         -        -       -         -           1         
+un2_cnt_cry_3_0      CCU2C       CIN      In      0.000     1.916 r     -         
+un2_cnt_cry_3_0      CCU2C       COUT     Out     0.061     1.977 r     -         
+un2_cnt_cry_4        Net         -        -       -         -           1         
+un2_cnt_cry_5_0      CCU2C       CIN      In      0.000     1.977 r     -         
+un2_cnt_cry_5_0      CCU2C       COUT     Out     0.061     2.038 r     -         
+un2_cnt_cry_6        Net         -        -       -         -           1         
+un2_cnt_cry_7_0      CCU2C       CIN      In      0.000     2.038 r     -         
+un2_cnt_cry_7_0      CCU2C       COUT     Out     0.061     2.099 r     -         
+un2_cnt_cry_8        Net         -        -       -         -           1         
+un2_cnt_cry_9_0      CCU2C       CIN      In      0.000     2.099 r     -         
+un2_cnt_cry_9_0      CCU2C       COUT     Out     0.061     2.160 r     -         
+un2_cnt_cry_10       Net         -        -       -         -           1         
+un2_cnt_cry_11_0     CCU2C       CIN      In      0.000     2.160 r     -         
+un2_cnt_cry_11_0     CCU2C       COUT     Out     0.061     2.221 r     -         
+un2_cnt_cry_12       Net         -        -       -         -           1         
+un2_cnt_cry_13_0     CCU2C       CIN      In      0.000     2.221 r     -         
+un2_cnt_cry_13_0     CCU2C       COUT     Out     0.061     2.282 r     -         
+un2_cnt_cry_14       Net         -        -       -         -           1         
+un2_cnt_cry_15_0     CCU2C       CIN      In      0.000     2.282 r     -         
+un2_cnt_cry_15_0     CCU2C       COUT     Out     0.061     2.343 r     -         
+un2_cnt_cry_16       Net         -        -       -         -           1         
+un2_cnt_cry_17_0     CCU2C       CIN      In      0.000     2.343 r     -         
+un2_cnt_cry_17_0     CCU2C       COUT     Out     0.061     2.404 r     -         
+un2_cnt_cry_18       Net         -        -       -         -           1         
+un2_cnt_cry_19_0     CCU2C       CIN      In      0.000     2.404 r     -         
+un2_cnt_cry_19_0     CCU2C       COUT     Out     0.061     2.465 r     -         
+un2_cnt_cry_20       Net         -        -       -         -           1         
+un2_cnt_cry_21_0     CCU2C       CIN      In      0.000     2.465 r     -         
+un2_cnt_cry_21_0     CCU2C       COUT     Out     0.061     2.526 r     -         
+un2_cnt_cry_22       Net         -        -       -         -           1         
+un2_cnt_cry_23_0     CCU2C       CIN      In      0.000     2.526 r     -         
+un2_cnt_cry_23_0     CCU2C       S1       Out     0.698     3.224 r     -         
+cnt_3[24]            Net         -        -       -         -           1         
+cnt[24]              FD1S3IX     D        In      0.000     3.224 r     -         
+==================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:04s; Memory used current: 268MB peak: 269MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:04s; Memory used current: 268MB peak: 269MB)
+
+---------------------------------------
+Resource Usage Report
+Part: lfe5u_45f-6
+
+Register bits: 25 of 43848 (0%)
+PIC Latch:       0
+I/O cells:       11
+
+
+Details:
+CCU2C:          13
+FD1S3AX:        13
+FD1S3IX:        12
+GSR:            1
+IB:             4
+INV:            1
+OB:             7
+ORCALUT4:       20
+PUR:            1
+VHI:            1
+VLO:            1
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:19s; CPU Time elapsed 0h:00m:05s; Memory used current: 131MB peak: 269MB)
+
+Process took 0h:00m:19s realtime, 0h:00m:05s cputime
+# Tue Sep 30 18:37:58 2025
+
+###########################################################]
