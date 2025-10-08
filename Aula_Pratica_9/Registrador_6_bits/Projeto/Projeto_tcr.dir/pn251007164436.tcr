@@ -1,0 +1,10 @@
+#Start recording tcl command: 10/7/2025 16:04:28
+#Project Location: I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Projeto; Project name: Projeto
+prj_project new -name "Projeto" -impl "impl1" -dev LFE5U-45F-6BG381C -synthesis "synplify" -lpf "I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Arquivos/registrador6.lpf"
+prj_src add "I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Arquivos/top.sv"
+prj_project save
+prj_run Export -impl impl1
+prj_run Export -impl impl1
+prj_project save
+prj_project close
+#Stop recording: 10/7/2025 16:44:37

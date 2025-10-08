@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "16:06:37    07-Oct-2025",
+	"Working Directory" : "I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Projeto/impl1",
+	"Install" : "C:/lscc/diamond/3.14/synpbase"
+},
+"impl1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "16:04:44",
+   "Runtime" : "01m:53s",
+   "Executable Run Time" : "01m:34s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "16:04:44",
+      "Runtime" : "01m:53s",
+      "Executable Run Time" : "01m:34s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:04:44",
+         "Runtime" : "01m:17s",
+         "Executable Run Time" : "01m:01s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "16:04:44",
+            "Runtime" : "41s",
+            "Executable Run Time" : "28s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Projeto/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "16:04:44",
+               "Run Time" : "34s  (10s UI processing)",
+               "Exe Run Time" : "24s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Projeto/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "16:05:18",
+               "Run Time" : "06s",
+               "Exe Run Time" : "04s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Projeto/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "16:05:25",
+            "Run Time" : "36s",
+            "Exe Run Time" : "33s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "16:06:02",
+         "Runtime" : "35s",
+         "Executable Run Time" : "33s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "I:/Meu Drive/Projetos_Verilog/Registrador_6_bits/Projeto/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "16:06:02",
+            "Run Time" : "35s",
+            "Exe Run Time" : "33s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

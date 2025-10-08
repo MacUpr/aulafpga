@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"I:\Meu Drive\Projetos_Verilog\Registrador_6_bits\Arquivos\top.sv":7:7:7:9|Synthesizing module top in library work.
+@N|Running in 64-bit mode
+

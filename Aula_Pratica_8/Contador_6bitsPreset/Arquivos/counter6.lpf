@@ -1,0 +1,88 @@
+# ============================================================
+# CLOCK e LED onboard
+# ============================================================
+# clk -> P3  (25 MHz, 3V3)
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+# led -> L2  (LED onboard)
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# ============================================================
+# SAÍDAS — q[5:0]  (ESQUERDA topo)
+# Físico: [0]=B19(PT65B), [1]=A18(PT65A), [2]=C2(PL14D),
+#         [3]=B20(PT67B), [4]=E2(PL23D), [5]=A19(PT67A)
+# ============================================================
+# q[0] -> B19  (PT65B)
+LOCATE    COMP "q[0]" SITE "B19";
+IOBUF     PORT "q[0]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# q[1] -> A18  (PT65A)
+LOCATE    COMP "q[1]" SITE "A18";
+IOBUF     PORT "q[1]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# q[2] -> C2   (PL14D)
+LOCATE    COMP "q[2]" SITE "C2";
+IOBUF     PORT "q[2]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# q[3] -> B20  (PT67B)
+LOCATE    COMP "q[3]" SITE "B20";
+IOBUF     PORT "q[3]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# q[4] -> E2   (PL23D)
+LOCATE    COMP "q[4]" SITE "E2";
+IOBUF     PORT "q[4]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# q[5] -> A19  (PT67A)
+LOCATE    COMP "q[5]" SITE "A19";
+IOBUF     PORT "q[5]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# ============================================================
+# ENTRADAS — controle (ativos-baixos típicos com pull-up)
+# Mapeamento atual:
+#   reset_n -> B18 (PT62B)
+#   pause   -> B1  (PL14B)
+#   up_down -> D2  (PL17C)
+# ============================================================
+# reset_n -> B18  (PT62B) — ativo-baixo; pull-up interno
+LOCATE    COMP "reset_n" SITE "B18";
+IOBUF     PORT "reset_n" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# pause -> B1     (PL14B) — 1 = pausa; pull-up interno
+LOCATE    COMP "pause" SITE "D2";
+IOBUF     PORT "pause" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# up_down -> D2   (PL17C) — 1 = sobe / 0 = desce; pull-up interno
+LOCATE    COMP "up_down" SITE "B1";
+IOBUF     PORT "up_down" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# ============================================================
+# ENTRADAS — preset[5:0]  (ESQUERDA - inferior)
+# Mapeamento: [0]=PL29A(J4), [1]=PL29B(J5), [2]=PL14A(A2),
+#             [3]=PL35A(K4), [4]=PL5D(B3),  [5]=PR14D(E19)
+# ============================================================
+LOCATE    COMP "preset[0]" SITE "J4";   IOBUF PORT "preset[0]" IO_TYPE=LVCMOS33;  # PL29A
+LOCATE    COMP "preset[1]" SITE "J5";   IOBUF PORT "preset[1]" IO_TYPE=LVCMOS33;  # PL29B
+LOCATE    COMP "preset[2]" SITE "A2";   IOBUF PORT "preset[2]" IO_TYPE=LVCMOS33;  # PL14A
+LOCATE    COMP "preset[3]" SITE "K4";   IOBUF PORT "preset[3]" IO_TYPE=LVCMOS33;  # PL35A
+LOCATE    COMP "preset[4]" SITE "B3";   IOBUF PORT "preset[4]" IO_TYPE=LVCMOS33;  # PL5D
+LOCATE    COMP "preset[5]" SITE "E19";  IOBUF PORT "preset[5]" IO_TYPE=LVCMOS33;  # PR14D
+
+# ============================================================
+# ENTRADAS — reset, preset, pause
+# load → PL35B(K5) 
+# ============================================================
+LOCATE    COMP "load" SITE "K5";  IOBUF PORT "load" IO_TYPE=LVCMOS33;  # PL35B
+
+
+# ============================================================
+# (Opcional) Ajustes elétricos das saídas (cabos longos/carga)
+# IOBUF PORT "q[0]" DRIVE=8 SLEWRATE=SLOW;
+# IOBUF PORT "q[1]" DRIVE=8 SLEWRATE=SLOW;
+# IOBUF PORT "q[2]" DRIVE=8 SLEWRATE=SLOW;
+# IOBUF PORT "q[3]" DRIVE=8 SLEWRATE=SLOW;
+# IOBUF PORT "q[4]" DRIVE=8 SLEWRATE=SLOW;
+# IOBUF PORT "q[5]" DRIVE=8 SLEWRATE=SLOW;
+# ============================================================

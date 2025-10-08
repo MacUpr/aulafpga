@@ -1,0 +1,3 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: BN287 :"i:\meu drive\projetos_verilog\registrador_6_bits\arquivos\top.sv":70:4:70:12|Register q_r[5:0] with reset has an initial value of 1. Ignoring initial value.  
+@W: MT529 :"i:\meu drive\projetos_verilog\registrador_6_bits\arquivos\top.sv":45:4:45:12|Found inferred clock top|clk which controls 35 sequential elements including sync_updown[1]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
