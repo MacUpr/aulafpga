@@ -1,0 +1,60 @@
+# ============================================================
+# CLOCK e LED onboard
+# ============================================================
+# clk -> P3  (25 MHz, 3V3)
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+# led -> L2  (LED onboard)
+LOCATE    COMP "led" SITE "L2";
+IOBUF     PORT "led" IO_TYPE=LVCMOS33;
+
+# ============================================================
+# ENTRADAS — I1..I5
+# (conforme solicitado: PL17B, PL17A, PL14D, PL5B, [faltou ball p/ I5])
+# ============================================================
+# I1 -> PL17B
+LOCATE    COMP "I1" SITE "D1";     # D1 = PL17B
+IOBUF     PORT "I1" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# I2 -> PL17A
+LOCATE    COMP "I2" SITE "C1";     # C1 = PL17A
+IOBUF     PORT "I2" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# I3 -> PL14D
+LOCATE    COMP "I3" SITE "C2";     # C2 = PL14D
+IOBUF     PORT "I3" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# I4 -> PL5B
+LOCATE    COMP "I4" SITE "E3";     # E3 = PL11B
+IOBUF     PORT "I4" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# I5 -> (definir ball)
+LOCATE COMP "I5" SITE "B4"; # B4 = PL5B
+IOBUF  PORT "I5" IO_TYPE=LVCMOS33 PULLMODE=UP;
+
+# ============================================================
+# SAÍDAS — O1..O5
+# (conforme solicitado: PL23D, PL17C, PL14B, PL8C, [faltou ball p/ O5])
+# Todas com DRIVE=8 SLEWRATE=SLOW
+# ============================================================
+# O1 -> PL23D
+LOCATE    COMP "O1" SITE "E2";     # E2 = PL23D
+IOBUF     PORT "O1" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# O2 -> PL17C
+LOCATE    COMP "O2" SITE "D2";     # D2 = PL17C
+IOBUF     PORT "O2" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# O3 -> PL14B
+LOCATE    COMP "O3" SITE "B1";     # B1 = PL14B
+IOBUF     PORT "O3" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# O4 -> PL8C
+LOCATE    COMP "O4" SITE "A3";    # A3 = PL5C
+IOBUF     PORT "O4" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# O5 -> (definir ball)
+LOCATE COMP "O5" SITE "C3";     # C3 = PL8C
+IOBUF  PORT "O5" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
