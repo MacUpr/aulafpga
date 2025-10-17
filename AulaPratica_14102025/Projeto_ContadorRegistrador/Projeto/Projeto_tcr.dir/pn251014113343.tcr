@@ -1,0 +1,7 @@
+#Start recording tcl command: 10/14/2025 10:42:38
+#Project Location: C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Projeto; Project name: Projeto
+prj_project new -name "Projeto" -impl "impl1" -dev LFE5U-45F-6BG381C -synthesis "synplify" -lpf "C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Arquivos/top.lpf"
+prj_src add "C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Arquivos/top.sv"
+prj_project save
+prj_run Export -impl impl1
+#Stop recording: 10/14/2025 11:33:43

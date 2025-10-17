@@ -1,0 +1,54 @@
+# ============================================================
+# CLOCK
+# ============================================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+# ============================================================
+# LED (blink)
+# ============================================================
+LOCATE COMP "led" SITE "L2";
+IOBUF  PORT "led" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# ============================================================
+# CONTROLES (RESET, DIR, PAUSE) — entradas com pull-up
+# (removidos: LOAD, MODO)
+# ------------------------------------------------------------
+# Ordem física (referência): PT67B(B20), PT65A(A18), PT65B(B19)
+# ============================================================
+LOCATE COMP "reset" SITE "B19"; IOBUF PORT "reset" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PT67B B19
+LOCATE COMP "dir"   SITE "A18"; IOBUF PORT "dir"   IO_TYPE=LVCMOS33 PULLMODE=UP;  # PT65A A18
+LOCATE COMP "pause" SITE "C2"; IOBUF PORT "pause" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PL14D C2
+
+# ============================================================
+# SAÍDA DE DADOS — PRIMEIRA PALAVRA (word_lo[8:0])
+# DRIVE=8 + SLEWRATE=SLOW
+# Sites conforme mapeamento anterior de q[8:0]
+# Ordem (LSB->MSB): G20, L18, L20, N18, P18, P17, M18, N17, T17
+# ============================================================
+LOCATE COMP "word_hi[0]" SITE "G20"; IOBUF PORT "word_lo[0]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR17D
+LOCATE COMP "word_hi[1]" SITE "L18"; IOBUF PORT "word_lo[1]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR29C
+LOCATE COMP "word_hi[2]" SITE "L20"; IOBUF PORT "word_lo[2]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR26A
+LOCATE COMP "word_hi[3]" SITE "N18"; IOBUF PORT "word_lo[3]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR32C
+LOCATE COMP "word_hi[4]" SITE "P18"; IOBUF PORT "word_lo[4]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR38D
+LOCATE COMP "word_hi[5]" SITE "P17"; IOBUF PORT "word_lo[5]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR32D
+LOCATE COMP "word_hi[6]" SITE "M18"; IOBUF PORT "word_lo[6]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR29D
+LOCATE COMP "word_hi[7]" SITE "N17"; IOBUF PORT "word_lo[7]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR35A
+LOCATE COMP "word_hi[8]" SITE "T17"; IOBUF PORT "word_lo[8]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR47D
+
+# ============================================================
+# SAÍDA DE DADOS — SEGUNDA PALAVRA (word_hi[8:0])
+# DIREITA - BLOCO PRETO INFERIOR
+# >>> LSB deve começar em N2 (PL44A) <<<
+# Ordem (LSB->MSB): N2, M1, N3, M3, N4, M4, T2, PB15A, R3
+# ============================================================
+LOCATE COMP "word_lo[0]" SITE "N2";     IOBUF PORT "word_hi[0]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PL44A
+LOCATE COMP "word_lo[1]" SITE "M1";     IOBUF PORT "word_hi[1]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PL44B
+LOCATE COMP "word_lo[2]" SITE "N3";     IOBUF PORT "word_hi[2]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PL41A
+LOCATE COMP "word_lo[3]" SITE "M3";     IOBUF PORT "word_hi[3]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PL41B
+LOCATE COMP "word_lo[4]" SITE "N4";     IOBUF PORT "word_hi[4]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PL38C
+LOCATE COMP "word_lo[5]" SITE "M4";     IOBUF PORT "word_hi[5]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PL38A
+LOCATE COMP "word_lo[6]" SITE "T2";     IOBUF PORT "word_hi[6]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PB13A
+LOCATE COMP "word_lo[7]" SITE "T3";     IOBUF PORT "word_hi[7]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PB18A
+LOCATE COMP "word_lo[8]" SITE "R3";     IOBUF PORT "word_hi[8]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PB15B

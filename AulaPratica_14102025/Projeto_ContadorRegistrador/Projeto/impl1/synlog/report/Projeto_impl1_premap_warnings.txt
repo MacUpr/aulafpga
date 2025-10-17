@@ -1,0 +1,2 @@
+@W: FX474 |User-specified initial value defined for some sequential elements which can prevent optimum synthesis results from being achieved. 
+@W: MT529 :"c:\users\restic16\documents\fpga\aulapratica_14102025\projeto_contadorregistrador\arquivos\top.sv":89:4:89:12|Found inferred clock top|clk which controls 55 sequential elements including reg9[8]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

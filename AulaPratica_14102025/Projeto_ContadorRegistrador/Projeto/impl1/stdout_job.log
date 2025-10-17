@@ -1,0 +1,85 @@
+{
+"Synplify Pro (R) Job Log" : {
+	"Date" : "10:48:51    14-Oct-2025",
+	"Working Directory" : "C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Projeto/impl1",
+	"Install" : "C:/lscc/diamond/3.14/synpbase"
+},
+"impl1" :{
+   "Job Flow" : "Sequential",
+   "Start Time" : "10:48:34",
+   "Runtime" : "17s",
+   "Executable Run Time" : "16s",
+   "synthesis" : {
+      "Job Flow" : "Sequential",
+      "Start Time" : "10:48:34",
+      "Runtime" : "17s",
+      "Executable Run Time" : "16s",
+      "compile" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:48:34",
+         "Runtime" : "10s",
+         "Executable Run Time" : "09s",
+         "compile_flow" : {
+            "Job Flow" : "Sequential",
+            "Start Time" : "10:48:34",
+            "Runtime" : "05s",
+            "Executable Run Time" : "04s",
+            "compiler" : {
+               "executable" : "bin64/c_hdl.exe",
+               "Run Directory" : "C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Projeto/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:48:34",
+               "Run Time" : "04s",
+               "Exe Run Time" : "03s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            },
+            "multi_srs_gen" : {
+               "executable" : "bin64/syn_nfilter.exe",
+               "Run Directory" : "C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Projeto/impl1",
+               "Run State" : "Complete",
+               "Return Code" : "0",
+               "Has Errors" : "no",
+               "Run Start Time" : "10:48:38",
+               "Run Time" : "01s",
+               "Exe Run Time" : "01s",
+               "Memory Usage" : "-",
+               "Up-to-date (run skipped)" : "no"
+            }
+         },
+         "premap" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Projeto/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:48:39",
+            "Run Time" : "05s",
+            "Exe Run Time" : "05s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      },
+      "map" : {
+         "Job Flow" : "Sequential",
+         "Start Time" : "10:48:44",
+         "Runtime" : "07s",
+         "Executable Run Time" : "07s",
+         "fpga_mapper" : {
+            "executable" : "bin64/m_gen_lattice.exe",
+            "Run Directory" : "C:/Users/ResTIC16/Documents/fpga/AulaPratica_14102025/Projeto_ContadorRegistrador/Projeto/impl1",
+            "Run State" : "Complete",
+            "Return Code" : "1",
+            "Has Errors" : "no",
+            "Run Start Time" : "10:48:44",
+            "Run Time" : "07s",
+            "Exe Run Time" : "07s",
+            "Memory Usage" : "-",
+            "Up-to-date (run skipped)" : "no"
+         }
+      }
+   }
+}
+}

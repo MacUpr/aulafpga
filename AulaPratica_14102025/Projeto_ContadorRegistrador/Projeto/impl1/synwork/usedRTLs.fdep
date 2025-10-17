@@ -1,0 +1,5 @@
+#List of actual used RTLs.
+
+File                                                                                                       Type     IN_PROJECT/INCLUDED/LIBRARY
+
+"C:\Users\ResTIC16\Documents\fpga\AulaPratica_14102025\Projeto_ContadorRegistrador\Arquivos\top.sv"     verilog                      IN PROJECT

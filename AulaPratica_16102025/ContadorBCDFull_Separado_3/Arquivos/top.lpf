@@ -1,0 +1,34 @@
+# ============================================================
+# CLOCK
+# ============================================================
+LOCATE    COMP "clk" SITE "P3";
+IOBUF     PORT "clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "clk" 25 MHz;
+
+# ============================================================
+# LED (blink)
+# ============================================================
+LOCATE COMP "led" SITE "L2";
+IOBUF  PORT "led" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;
+
+# ============================================================
+# CONTROLES (RESET, DIR, PAUSE) — entradas com pull-up
+# ============================================================
+LOCATE COMP "reset" SITE "B19"; IOBUF PORT "reset" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PT67B B19
+LOCATE COMP "dir"   SITE "A18"; IOBUF PORT "dir"   IO_TYPE=LVCMOS33 PULLMODE=UP;  # PT65A A18
+LOCATE COMP "pause" SITE "C2";  IOBUF PORT "pause" IO_TYPE=LVCMOS33 PULLMODE=UP;  # PL14D C2
+
+# ============================================================
+# SAÍDA DE DADOS — ÚNICO BARRAMENTO word_bus[8:0]
+# DRIVE=8 + SLEWRATE=SLOW
+# Mapeamento (LSB->MSB): G20, L18, L20, N18, P18, P17, M18, N17, T17
+# ============================================================
+LOCATE COMP "word_bus[0]" SITE "G20"; IOBUF PORT "word_bus[0]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR17D
+LOCATE COMP "word_bus[1]" SITE "L18"; IOBUF PORT "word_bus[1]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR29C
+LOCATE COMP "word_bus[2]" SITE "L20"; IOBUF PORT "word_bus[2]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR26A
+LOCATE COMP "word_bus[3]" SITE "N18"; IOBUF PORT "word_bus[3]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR32C
+LOCATE COMP "word_bus[4]" SITE "P18"; IOBUF PORT "word_bus[4]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR38D
+LOCATE COMP "word_bus[5]" SITE "P17"; IOBUF PORT "word_bus[5]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR32D
+LOCATE COMP "word_bus[6]" SITE "M18"; IOBUF PORT "word_bus[6]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR29D
+LOCATE COMP "word_bus[7]" SITE "N17"; IOBUF PORT "word_bus[7]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR35A
+LOCATE COMP "word_bus[8]" SITE "T17"; IOBUF PORT "word_bus[8]" IO_TYPE=LVCMOS33 DRIVE=8 SLEWRATE=SLOW;  # PR47D

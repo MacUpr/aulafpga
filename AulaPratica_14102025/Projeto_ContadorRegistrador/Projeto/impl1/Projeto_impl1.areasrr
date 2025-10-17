@@ -1,0 +1,23 @@
+----------------------------------------------------------------------
+Report for cell top.verilog
+
+Register bits: 55 of 43848 (0%)
+PIC Latch:       0
+I/O cells:       25
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                              CCU2C       18       100.0
+                            FD1S3AX       28       100.0
+                            FD1S3AY        1       100.0
+                            FD1S3IX       21       100.0
+                                GSR        1       100.0
+                                 IB       15       100.0
+                           IFS1P3DX        5       100.0
+                                INV        1       100.0
+                                 OB       10       100.0
+                           ORCALUT4       59       100.0
+                                PUR        1       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+                            
+                         TOTAL           162           
